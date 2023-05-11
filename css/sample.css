@@ -1,0 +1,139 @@
+html {
+  position: relative;
+  height: 100%;
+}
+  
+  body {
+    text-align: center;
+    height: 100%;
+  }
+
+  .container {
+    display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
+  min-height: 100vh;
+  }
+  
+  .main-header {
+    background-size: cover;
+    background-image: url("../images/header.jpg");
+    background-attachment: fixed;
+  }
+
+  .main-header img{
+    padding-bottom: 15%;
+    width: 13%;
+    display: block;
+    padding-top: 150px;
+    margin-right: auto;
+    margin-left: auto;  
+  }
+
+
+  
+  /* ここから */
+  .header {
+    height: 50px;
+    background-color: #2B2B2B;
+  }
+  
+  header ul {
+      list-style: none;
+    }
+
+  header li a {
+      color: white;
+      text-decoration: none;
+    }
+  .left {
+    float: left;
+    padding: 15px;
+  }
+
+  .right {
+    float: right; 
+    padding: 15px;
+  }
+
+  .left 
+
+  .clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+
+  header ul a {
+  }
+  
+  header li {
+  }
+  
+  header ul:after {
+  }
+  /* ここまでがheader部分の実装 */
+  
+
+  #sizechange1 {
+    font-size: 1.5rem;
+  }
+
+  #sizechange2 {
+    font-size: 0.8rem;
+  }
+
+  .about {
+
+  /* About Achieve部分の実装 */
+  }
+  
+  /* ここから */
+  .function {
+    background-color: #D3D3D3;
+    height: 100%;
+  }
+  
+ 
+
+  .function-images {
+    width: 550px;
+    margin: auto;
+  }
+
+  .function-image {
+    display: table-cell;
+    width: 150px;
+  }
+
+  
+  .function-image img {
+    width: 50%;
+  }
+  
+
+
+  /* ここまでがfunction部分の実装 */
+  
+  .footer p {
+    margin: 0.2em 0px;
+    background-color: aqua;
+   }
+
+  footer {
+    background-color: #283A4B;
+    color: white;
+    font-size: 0.8rem;
+    height: 70px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+}
+
+ .clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
